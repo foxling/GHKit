@@ -237,7 +237,6 @@
 		7F69C1792A6A889DB334D8A3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15428C979FD4436811B2DEF /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B42546811CEED816007F5DE3 /* GHKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B42546851CEED816007F5DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4A18D151E44782867D4732 /* libPods-TestsIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestsIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73DDAC0E98AA05DF8254F57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D41E32596354C4A3342BF106 /* libPods-TestsOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestsOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -283,7 +282,6 @@
 				00D0247A154DFE94003BAAC3 /* README.md */,
 				00D0227A154DF1C5003BAAC3 /* GHKit */,
 				00D0239B154DF67D003BAAC3 /* Tests */,
-				B42546821CEED816007F5DE3 /* GHKit-iOS */,
 				00D022D6154DF1EB003BAAC3 /* Frameworks */,
 				00D022D5154DF1EB003BAAC3 /* Products */,
 				A530D9C811A07BAE1E6ECC78 /* Pods */,
@@ -439,14 +437,6 @@
 				347D47A67EE023DAAC8B18A0 /* Pods-Tests.debug.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B42546821CEED816007F5DE3 /* GHKit-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B42546851CEED816007F5DE3 /* Info.plist */,
-			);
-			path = "GHKit-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1033,6 +1023,7 @@
 				B42546861CEED816007F5DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
