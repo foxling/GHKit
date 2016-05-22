@@ -133,6 +133,32 @@
 		B42546A11CEED89D007F5DE3 /* GHUIColor+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D022BD154DF1C5003BAAC3 /* GHUIColor+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B42546A21CEED89D007F5DE3 /* GHCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 002E85FE185A8D360019B5E6 /* GHCGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B42546A31CEED89D007F5DE3 /* GHUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E206911C518AD60095FD56 /* GHUIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B1D5FE1CF1FEAE007E36C6 /* GHNSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02283154DF1C5003BAAC3 /* GHNSArray+Utils.m */; };
+		B4B1D5FF1CF1FEAE007E36C6 /* GHNSBundle+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02285154DF1C5003BAAC3 /* GHNSBundle+Utils.m */; };
+		B4B1D6001CF1FEAE007E36C6 /* GHNSDate+Formatters.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02287154DF1C5003BAAC3 /* GHNSDate+Formatters.m */; };
+		B4B1D6011CF1FEAE007E36C6 /* GHNSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02289154DF1C5003BAAC3 /* GHNSDate+Utils.m */; };
+		B4B1D6021CF1FEAE007E36C6 /* GHNSDictionary+NSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0228B154DF1C5003BAAC3 /* GHNSDictionary+NSNull.m */; };
+		B4B1D6031CF1FEAE007E36C6 /* GHNSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0228D154DF1C5003BAAC3 /* GHNSDictionary+Utils.m */; };
+		B4B1D6041CF1FEAE007E36C6 /* GHNSError+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0228F154DF1C5003BAAC3 /* GHNSError+Utils.m */; };
+		B4B1D6051CF1FEAE007E36C6 /* GHNSFileManager+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02291154DF1C5003BAAC3 /* GHNSFileManager+Utils.m */; };
+		B4B1D6061CF1FEAE007E36C6 /* GHNSMutableArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02297154DF1C5003BAAC3 /* GHNSMutableArray+Utils.m */; };
+		B4B1D6071CF1FEAE007E36C6 /* GHNSMutableDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D02299154DF1C5003BAAC3 /* GHNSMutableDictionary+Utils.m */; };
+		B4B1D6081CF1FEAE007E36C6 /* GHNSNotificationCenter+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0229B154DF1C5003BAAC3 /* GHNSNotificationCenter+Utils.m */; };
+		B4B1D6091CF1FEAE007E36C6 /* GHNSNumber+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0229D154DF1C5003BAAC3 /* GHNSNumber+Utils.m */; };
+		B4B1D60A1CF1FEAE007E36C6 /* GHNSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022A1154DF1C5003BAAC3 /* GHNSObject+Utils.m */; };
+		B4B1D60B1CF1FEAE007E36C6 /* GHNSString+TimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022A7154DF1C5003BAAC3 /* GHNSString+TimeInterval.m */; };
+		B4B1D60C1CF1FEAE007E36C6 /* GHNSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022A9154DF1C5003BAAC3 /* GHNSString+URL.m */; };
+		B4B1D60D1CF1FEAE007E36C6 /* GHNSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022AB154DF1C5003BAAC3 /* GHNSString+Utils.m */; };
+		B4B1D60E1CF1FEAE007E36C6 /* GHNSStringEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022AF154DF1C5003BAAC3 /* GHNSStringEnumerator.m */; };
+		B4B1D60F1CF1FEAE007E36C6 /* GHNSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022B1154DF1C5003BAAC3 /* GHNSURL+Utils.m */; };
+		B4B1D6101CF1FEAE007E36C6 /* GHNSData+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034B491188631E4000C92B2 /* GHNSData+Utils.m */; };
+		B4B1D6111CF1FEAE007E36C6 /* GHNSUserDefaults+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022B3154DF1C5003BAAC3 /* GHNSUserDefaults+Utils.m */; };
+		B4B1D6121CF1FEAE007E36C6 /* GHReversableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022B5154DF1C5003BAAC3 /* GHReversableDictionary.m */; };
+		B4B1D6131CF1FEAE007E36C6 /* GHValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022B7154DF1C5003BAAC3 /* GHValidators.m */; };
+		B4B1D6141CF1FEAE007E36C6 /* GHUIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E248491845578E008C720D /* GHUIImage+Utils.m */; };
+		B4B1D6151CF1FEAE007E36C6 /* GHUIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D022BE154DF1C5003BAAC3 /* GHUIColor+Utils.m */; };
+		B4B1D6161CF1FEAE007E36C6 /* GHCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E85FF185A8D360019B5E6 /* GHCGUtils.m */; };
+		B4B1D6171CF1FEAE007E36C6 /* GHUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E206921C518AD60095FD56 /* GHUIUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -775,6 +801,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B1D5FE1CF1FEAE007E36C6 /* GHNSArray+Utils.m in Sources */,
+				B4B1D5FF1CF1FEAE007E36C6 /* GHNSBundle+Utils.m in Sources */,
+				B4B1D6001CF1FEAE007E36C6 /* GHNSDate+Formatters.m in Sources */,
+				B4B1D6011CF1FEAE007E36C6 /* GHNSDate+Utils.m in Sources */,
+				B4B1D6021CF1FEAE007E36C6 /* GHNSDictionary+NSNull.m in Sources */,
+				B4B1D6031CF1FEAE007E36C6 /* GHNSDictionary+Utils.m in Sources */,
+				B4B1D6041CF1FEAE007E36C6 /* GHNSError+Utils.m in Sources */,
+				B4B1D6051CF1FEAE007E36C6 /* GHNSFileManager+Utils.m in Sources */,
+				B4B1D6061CF1FEAE007E36C6 /* GHNSMutableArray+Utils.m in Sources */,
+				B4B1D6071CF1FEAE007E36C6 /* GHNSMutableDictionary+Utils.m in Sources */,
+				B4B1D6081CF1FEAE007E36C6 /* GHNSNotificationCenter+Utils.m in Sources */,
+				B4B1D6091CF1FEAE007E36C6 /* GHNSNumber+Utils.m in Sources */,
+				B4B1D60A1CF1FEAE007E36C6 /* GHNSObject+Utils.m in Sources */,
+				B4B1D60B1CF1FEAE007E36C6 /* GHNSString+TimeInterval.m in Sources */,
+				B4B1D60C1CF1FEAE007E36C6 /* GHNSString+URL.m in Sources */,
+				B4B1D60D1CF1FEAE007E36C6 /* GHNSString+Utils.m in Sources */,
+				B4B1D60E1CF1FEAE007E36C6 /* GHNSStringEnumerator.m in Sources */,
+				B4B1D60F1CF1FEAE007E36C6 /* GHNSURL+Utils.m in Sources */,
+				B4B1D6101CF1FEAE007E36C6 /* GHNSData+Utils.m in Sources */,
+				B4B1D6111CF1FEAE007E36C6 /* GHNSUserDefaults+Utils.m in Sources */,
+				B4B1D6121CF1FEAE007E36C6 /* GHReversableDictionary.m in Sources */,
+				B4B1D6131CF1FEAE007E36C6 /* GHValidators.m in Sources */,
+				B4B1D6141CF1FEAE007E36C6 /* GHUIImage+Utils.m in Sources */,
+				B4B1D6151CF1FEAE007E36C6 /* GHUIColor+Utils.m in Sources */,
+				B4B1D6161CF1FEAE007E36C6 /* GHCGUtils.m in Sources */,
+				B4B1D6171CF1FEAE007E36C6 /* GHUIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1033,6 +1085,7 @@
 				B42546861CEED816007F5DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
